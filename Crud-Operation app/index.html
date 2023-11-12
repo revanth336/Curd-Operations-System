@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<head>
+    <title>CURDapp 📅</title>
+    <link type="text/css" rel="stylesheet" href="style.css"
+</head>
+<style>
+    h1 {text-align: center;}
+    h1 {font-family:elephant;}
+</style>
+    <h1  style="color:rgb(0, 0, 0);">
+        <u>CURD   OPERATIONS   APP</u>
+    </h1>
+<body>
+    <table>
+        <tr>
+            <td>
+                <form autocomplete="off" onsubmit="onFormSubmit()">
+                    <h3 style="text-align: center;"><U>STUDENT DETAILS:</U></h3>
+                    <div>
+                        <label for="productCode">Registration Number:</label>
+                        <input type="text" name="productCode" id="productCode">
+                    </div>
+                    <div>
+                        <label for="product">Student Name:</label>
+                        <input type="text" name="product" id="product">
+                    </div>
+                    <div>
+                        <label for="qty">Current Year:</label>
+                        <input type="number" name="qty" id="qty" min="1" max="4">
+                    </div>
+                    <div>
+                        <label for="perPrice">Final CGPA:</label>
+                        <input type="number" name="perPrice" id="perPrice" min="1" max="10">
+                    </div>
+
+                    <div class="form_action--button">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </div>
+                </form>
+
+                <td>
+                    <h3 style="text-align: center;"><U>DATA OVERVIEW:</U></h3>
+                    <table class="list" id="storeList">
+                        <thead>
+                            <tr>
+                                <th>Register Number</th>
+                                <th>Student Name</th>
+                                <th>Current Year</th>
+                                <th>Final CGPA</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </td>
+            </td>
+        </tr>
+    </table>
+    <script type="text/javascript" src="./script.js"></script>
+</style>
+<div id=footer>
+    <p style="color:rgb(0, 0, 0)" align="center" class="copyright"><u>&copy;<strong> CURDapp 📅</strong> All Rights Reserved & Designed By <strong> Derangula Revanth </strong></u> </p>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
